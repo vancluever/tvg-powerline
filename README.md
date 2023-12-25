@@ -1,7 +1,8 @@
 # TinyVG Conversion Files for Powerline Glyphs
 
-This repository contains TinyVG conversions for certain glyphs in the PowerLine
-Extra range, commonly found in Nerd Fonts.
+This repository contains TinyVG conversions for certain glyphs in the
+[PowerLine Extra](https://github.com/ryanoasis/powerline-extra-symbols) range,
+commonly found in Nerd Fonts.
 
 Currently, this repository serves as a PoC to fix some issues with the TinyVG
 converter (`svg2tvgt`).
