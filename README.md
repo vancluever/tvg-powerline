@@ -4,7 +4,7 @@ This repository contains TinyVG conversions for certain glyphs in the PowerLine
 Extra range, commonly found in Nerd Fonts.
 
 Currently, this repository serves as a PoC to fix some issues with the TinyVG
-converter (svg2tvgt).
+converter (`svg2tvgt`).
 
 ## Generating
 
