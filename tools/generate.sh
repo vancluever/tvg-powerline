@@ -5,10 +5,11 @@ set -xe
 SVG2TVGT="./bin/svg2tvgt/svg2tvgt"
 TVG_TEXT="./bin/tvg-text"
 TVG_RENDER="./bin/tvg-render"
+CONVERT="convert"
 
 pushd "$(dirname "$0")"
 
-rm -f ../*.tga ../*.tvg ../*.tvgt
+rm -f ../*.png ../*.tga ../*.tvg ../*.tvgt
 for FILE in ../*.svg; do
   ${SVG2TVGT} "${FILE}"
 done
@@ -19,6 +20,10 @@ done
 
 for FILE in ../*.tvg; do
   ${TVG_RENDER} --anti-alias --height 200 "${FILE}"
+done
+
+for FILE in ../*.tga; do
+  ${CONVERT} "${FILE}" "$(dirname "$FILE")"/"$(basename "$FILE" .tga)".png
 done
 
 popd

@@ -16,6 +16,9 @@ actual tools and they need to be generated from the SDK.
 To use the script, either place the tools in the locations expected in the
 script in `tools/bin`, or edit the script to point to them.
 
+Additionally [ImageMagick](https://imagemagick.org/) is required for the PNG
+conversions.
+
 ## Floating point patch for exponential notation (`svg2tvgt`)
 
 Note that a couple of the glyphs need to have `svg2tvgt` patched to accept
