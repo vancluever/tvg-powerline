@@ -19,7 +19,7 @@ for FILE in ../*.tvgt; do
 done
 
 for FILE in ../*.tvg; do
-  ${TVG_RENDER} --anti-alias --height 200 "${FILE}"
+  ${TVG_RENDER} --height 200 "${FILE}"
 done
 
 for FILE in ../*.tga; do
