@@ -1,7 +1,7 @@
 (tvg 1
   (3033 2473 1/8 u8888 default)
   (
-    (1 0 1)
+    (0 0 0)
   )
   (
     (fill_path (flat 0)
